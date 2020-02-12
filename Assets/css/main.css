@@ -1,0 +1,293 @@
+/* amarillo #ffe8rb;
+	negro #090909 */
+
+body{
+	font-family: 'Roboto'
+}
+
+.bg-light{
+	background: transparent !important;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+
+.navbar-nav{
+	margin-right: 60px;
+}
+
+.navbar-brand{
+	margin-left: 80px
+}
+
+.nav-link{
+	margin: 0 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+	border-bottom: 5px solid black;
+}
+
+.link-contacto{
+	font-weight: bold;
+	color: #090909 !important;
+}
+
+.banner-container{
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/Grupo 43.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.banner-content{
+	width: 40%;
+	position: absolute;
+    top: 32%;
+    left: 7%; 
+}
+
+.banner-content h1{
+	font-size: 2.6rem;
+    margin: 0;
+    line-height: 4rem;
+    font-weight: bold;
+}
+.banner-content p{
+	font-weight: bold;
+}
+
+.about-container{
+	background-image: url('../images/Grupo 13.png');
+	background-position: center;
+	background-size: cover;	
+	width: 100%;
+	height: 500px;
+	position: relative;
+	padding: 25px 0;
+}
+.about-puntos{
+	margin-left: 100px;
+}
+
+.about-puntos img{
+	width: 15%;
+}
+
+.about-text{
+	width: 50%;
+	margin-left: 100px;
+}
+
+.about-text h3{
+	font-size: 35px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.about-text p{
+	line-height: 2;
+
+}
+
+.pie-about{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 45%;
+}
+.pie-about img{
+	width: 100%;
+}
+
+.pareja-container{
+	height: 500px;
+	width: 100%;
+	background-image: url('../images/Grupo 42.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding: 25px 0;
+}
+
+.pareja-text{
+	color: white;
+	width: 50%;
+	margin-left: 100px;
+}
+
+.pareja-container h3{
+	margin: 20px 0 0;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	margin-left: 100px;
+}
+
+.pareja-container .about-puntos{
+	margin-bottom: 20px;
+	margin-left: 210px;
+}
+
+.pareja-text p{
+	line-height: 2;
+}
+
+.testimonios{
+	position: relative;
+	height: 470px
+}
+
+.testimonios h3{
+	margin:  50px 0 50px 100px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.container-testimonios{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+}
+
+.carta{
+	width: 80%;
+    margin: auto;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.1);
+	height: 250px;
+	border-radius: 5px;
+	text-align: center;
+	height: 285px;
+
+}
+
+.carta p{
+	font-size: 15px;
+	padding: 25px;
+	height: 175px;
+}
+
+.carta h5{
+	margin-bottom: 20px;
+	font-weight: bold ;
+}
+
+.carta img{
+	width: 100px;
+	border: 2px solid #ffe84b;
+	border-radius: 50%;
+}
+
+.puntos-testimonios{
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+
+.puntos-testimonios img{
+	width: 80%
+}
+
+.container-contacto{
+	background-image: url('../images/Trazado 2.png');
+	background-size: cover;
+	background-position: top;
+	height: 550px;
+	width: 100%;
+	position: relative;
+	
+}
+
+.puntos-contacto{
+	margin-left: 100px;
+}
+.puntos-contacto img{
+	width: 20%;
+}
+
+.puntos-abajo{
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+}
+
+.puntos-abajo img{
+	width: 70%;
+}
+
+.container-contacto h3{
+	margin:  25px 0 10px 100px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+form{
+	text-align: center;
+}
+
+input{
+	display: block;
+	margin: 20px auto;
+	width: 35%;
+	background: transparent;
+	padding: 5px;
+	border: 1px solid #090909;
+}
+
+textarea{
+	margin: auto;
+	display: block;
+	margin-top: 10px;
+	border: 1px solid #090909;
+	width: 35%;
+	background: transparent;
+	padding: 5px;
+}
+
+.btn-dark{
+	background: #090909;
+	padding: 3px 30px;
+	border-radius: 0;
+	font-weight: bold;
+}
+
+.container-footer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: #090909;
+	height: 250px;
+}
+
+.ubicacion{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos-footer{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconos-footer a{
+	text-align: center;
+	width: 50px;
+}
+
+a.icono-face{
+	width: 28px
+}
+
+
+.iconos-footer a img{
+	width: 50%;
+}
