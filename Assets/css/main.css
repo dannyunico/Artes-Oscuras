@@ -263,6 +263,8 @@ textarea{
 	display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: white;
 }
 
 .logo-footer{
@@ -290,4 +292,155 @@ a.icono-face{
 
 .iconos-footer a img{
 	width: 50%;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+	.navbar-brand{
+		margin-left: 10px;
+	}
+
+	.banner-content{
+		width: 80%;
+		top: 100px;
+		text-align: center;
+		left: 6%;
+	}
+	
+	.banner-content h1{
+		font-size: 1.8rem;
+		line-height: 3rem;
+	}
+
+	.about-puntos {
+    	margin-left: 30px;
+	}
+	
+	.about-puntos img {
+    	width: 70%;
+	}
+
+	.about-text {
+    	width: 80%;
+    	margin-left: 30px;
+    	font-size: 11px;
+    }
+
+    .about-text h3{
+    	font-size: 30px;
+    }
+
+	.pie-about{
+		bottom: -2px;
+		width: 65%;
+	}
+
+	.pareja-container h3{
+		margin-left: 30px;
+		font-size: 30px;
+
+	}
+
+	.pareja-container .about-puntos{
+		margin-left: 100px;
+	}
+
+	.pareja-text{
+		font-size: 12px;
+		width: 80%;
+		margin-left: 30px;
+	}
+	
+	.testimonios{
+		height: 100%;
+	}
+
+	.testimonios h3{
+		margin: 40px 0 40px 30px;
+	}
+
+	.puntos-testimonios{
+		left: 80px;
+	}
+
+	.carta{
+		margin-bottom: 60px;
+	}
+	
+	.carta p{
+		font-size: 13px;
+
+	}
+	.container-testimonios{
+		grid-template-columns: 100%;
+	}
+
+	.puntos-contacto{
+		margin-left: 30px;
+	}
+
+	.puntos-contacto img{
+		width: 50%;
+	}
+
+	.puntos-abajo{
+		left: 30px;
+	}
+
+	.puntos-abajo img{
+		width: 60%;
+	}
+
+	.container-contacto h3{
+		margin: 25px 0 10px 30px;
+		font-size: 30px;
+	}
+	
+	input, textarea{
+		width: 70%;
+	}
+
+	.container-footer{
+		grid-template-columns: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.banner-content{
+		left: 95px;
+		width: 60%;
+	}
+	.about-puntos img{
+		width: 30%;
+	}
+
+	.about-text{
+		width: 75%;
+	}
+	.about-puntos img{
+		width: 40%;
+	}
+	.pareja-text{
+		width: 75%;
+	}
+	.puntos-testimonios{
+		right: 10px;
+	}
+	.puntos-testimonios img{
+		width: 65%;
+	}
+	
+	.carta{
+		width: 90%;
+	}
+	
+	.puntos-contacto img{
+		width: 40%;
+	}
+	.carta p{
+		font-size: 12px
+	}
+
+	input, textarea{
+		width: 60%;
+	}
 }
