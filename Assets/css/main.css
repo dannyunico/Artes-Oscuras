@@ -163,6 +163,80 @@ html{
 	line-height: 2;
 }
 
+.preguntas-container{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.preguntas-container h3{
+	margin: 35px 0;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.slider-preguntas{
+	width: 65%;
+}
+
+.carta-preguntas{
+	position: relative;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.carta-preguntas p{
+	padding: 20px;
+}
+
+.carta-preguntas h5{
+	padding: 30px 0;
+	font-weight: bold;
+}
+
+.slider-preguntas .slick-prev:before, .slider-preguntas .slick-next:before{
+	font-family: 'slick';
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: #ffe84b;
+}
+
+.slick-dots{
+	bottom: -50px;
+	width: 90%;
+}
+
+.slick-dots li button:before{
+	font-size: 12px
+}
+.slick-dots li.slick-active button:before{
+	color: #ffe84b;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before{
+	color: #ffe84b;	
+}
+
+.slick-prev{
+	left: -50px;
+}
+
+.slick-prev, .slick-next{
+	top: 40%
+}
+
+.carta-preguntas__pie{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 60%;
+}
+
+.carta-preguntas__pie img{
+	width: 100%;
+}
+
 .testimonios{
 	position: relative;
 	height: 470px;
@@ -386,7 +460,37 @@ a.icono-face{
 		width: 80%;
 		margin-left: 30px;
 	}
+
+	.preguntas-container h3{
+		font-size: 30px
+	}
 	
+	.slider-preguntas{
+		width: 80%;
+	}
+
+	.slider-preguntas .slick-prev:before, .slider-preguntas .slick-next:before{
+		font-size:  40px;
+	}
+
+	.carta-preguntas{
+		height: 350px;
+	}
+
+	.carta-preguntas h5{
+		font-size: 18px;
+		padding: 10px 0;
+	}
+
+	.carta-preguntas p{
+		font-size: 12px;
+		padding: 5px;
+	}
+
+	.carta-preguntas__pie{
+		width: 100%
+	}
+
 	.testimonios{
 		height: 100%;
 	}
@@ -459,6 +563,11 @@ a.icono-face{
 	.pareja-text{
 		width: 75%;
 	}
+
+	.carta-preguntas p{
+		font-size: 13px;
+	}
+
 	.puntos-testimonios{
 		right: 10px;
 	}
