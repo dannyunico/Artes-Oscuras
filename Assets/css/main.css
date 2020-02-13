@@ -26,6 +26,10 @@ html{
 	width: 100%;
 }
 
+.navbar-toggler:not(:disabled):not(.disabled){
+	outline: none;
+}
+
 .banner{
 	margin-top: -60px;
 }
