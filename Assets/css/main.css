@@ -167,6 +167,39 @@ html{
 	line-height: 2;
 }
 
+.biologia{
+	position: relative;
+	height: 300px;
+}
+
+.biologia-container h3{
+	margin: 35px 0;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.biologia-container{
+	width: 86%;
+	margin: auto;
+}
+
+.btn-warning{
+	background: #ffe84b;
+	border: none;
+	margin-top: 30px;
+	padding: 4px 30px;
+	font-weight: bold;
+}
+
+.modal-header{
+	background: #ffe84b;
+}
+
+.modal-header h5{
+	font-weight: bold;
+	font-size: 30px;
+}
+
 .preguntas-container{
 	width: 80%;
 	margin: auto;
